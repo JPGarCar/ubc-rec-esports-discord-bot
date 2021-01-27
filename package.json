@@ -1,0 +1,25 @@
+{
+  "name": "ubc-rec-esports-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot for UBC Rec to support the eSports League",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPGarCar/ubc-rec-esports-discord-bot.git"
+  },
+  "author": "JP Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPGarCar/ubc-rec-esports-discord-bot/issues"
+  },
+  "homepage": "https://github.com/JPGarCar/ubc-rec-esports-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/commando",
+    "dotenv": "^8.2.0",
+    "dotenv-flow": "^3.2.0"
+  }
+}
