@@ -29,7 +29,7 @@ module.exports = class Participant {
 
         /**
          * The games this participant is scheduled for or played.
-         * @type {Collection<String, TODO>} - <Game ID, Game>
+         * @type {Collection<Number, TODO>} - <Game ID, Game>
          */
         this.games = new Collection();
 
