@@ -24,6 +24,12 @@ module.exports = class Student {
         this.member = guildMember;
 
         /**
+         * The id of this student, same as the GuildMember ID.
+         * @type {String}
+         */
+        this.id = guildMember.id;
+
+        /**
          * All the leagues this student is part of.
          * @type {[TODO]}
          */
